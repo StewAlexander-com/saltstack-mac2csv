@@ -5,6 +5,11 @@ Turns the yaml formatted output of the saltstack command ```salt -G os:windows n
 ## Why?
 * Having a list of the salt names correlated to hardware addresses in a spreadsheet allows one to quickly search a network for a specific resource
 
+## Dependencies
+* Requires python3.x
+* Attempts to install the csv, tabular & rich libraries if not already installed
+
+
 ## Input of the yaml file:<br>
 ![image](https://user-images.githubusercontent.com/48565067/163863260-705b6f67-377e-4092-8e5e-7888d9dc112e.png)
 
