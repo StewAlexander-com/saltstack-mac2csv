@@ -1,5 +1,9 @@
-# saltstack-mac2csv
-Turns the yaml output of the saltstack command ```salt -G os:windows network.interfaces``` and turns into a csv file
+# SaltStack-MAC2CSV:
+
+Turns the yaml formatted output of the saltstack command ```salt -G os:windows network.interfaces``` and turns it into a csv file for easy review within a spreadsheet
+
+## Why?
+* Having a list of the salt names correlated to hardware addresses in a spreadsheet allows one to quickly search a network for a specific resource
 
 ## Input of the yaml file:<br>
 ![image](https://user-images.githubusercontent.com/48565067/163863260-705b6f67-377e-4092-8e5e-7888d9dc112e.png)
@@ -10,4 +14,3 @@ Turns the yaml output of the saltstack command ```salt -G os:windows network.int
 
 ## output of the ```salt_hw.csv``` file:
 * Outputs a csv file with the computer name, and hardware address of all the devices seen in the yaml file
-
