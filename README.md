@@ -19,3 +19,7 @@ Takes the yaml formatted output of the saltstack command ```salt -G os:windows n
 
 ## Output of the ```salt_hw.csv``` file:
 * Outputs a csv file with the computer name, and hardware address of all the devices seen in the yaml file
+
+# Updates
+* Better handles large saltstack yaml output by truncating the screen output to 25 entries, directing users to the csv file to see the rest (04/19/22)
+* Bug fix (04/19/22)
