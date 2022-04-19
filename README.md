@@ -1,6 +1,6 @@
 # SaltStack-MAC2CSV:
 
-Turns the yaml formatted output of the saltstack command ```salt -G os:windows network.interfaces``` and turns it into a csv file for easy review within a spreadsheet
+Takes the yaml formatted output of the saltstack command ```salt -G os:windows network.interfaces``` and turns it into a csv file for easy review within a spreadsheet
 
 ## Why?
 * Having a list of the salt names correlated to hardware addresses in a spreadsheet allows one to quickly search a network for a specific resource
